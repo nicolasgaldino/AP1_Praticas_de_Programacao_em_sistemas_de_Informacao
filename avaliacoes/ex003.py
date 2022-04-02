@@ -6,7 +6,7 @@ Digite o número da opção para escolher o sexo:
 ''')).strip().lower()
 if sexo == '1'or sexo == '1 - homem':
     tot = (72.7 * altura) - 58
-    print('Você está pesando {:.2f}'.format(tot))
+    print('Seu peso ideal é {:.2f}'.format(tot))
 elif sexo == '2'or sexo == '2 - mulher':
     tot = (62.1 * altura) - 44.7
-    print('Você está pesando {:.2f}'.format(tot))
+    print('Seu peso ideal é {:.2f}'.format(tot))
